@@ -1,0 +1,12 @@
+import { createRoot } from 'react-dom/client';
+import '@ui/global.css';
+import 'figma-kit/styles.css';
+import 'figma-kit/figma-development-theme.css';
+
+(async () => {
+  const rootElement = document.getElementById('root');
+  if (!rootElement) return;
+
+  const rootNode = createRoot(rootElement);
+  rootNode.render(<h1>This is your plugin!</h1>);
+})();

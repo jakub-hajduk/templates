@@ -1,0 +1,10 @@
+{
+	"name": "plugin name",
+	"api": "1.0.0",
+	"editorType": ["figma"],
+    "id": "plugin-id",
+	"main": "dist/main.js",
+	"ui": "dist/index.html",
+    "documentAccess": "dynamic-page",
+    "networkAccess": { "allowedDomains": ["none"] }
+}
