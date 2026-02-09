@@ -20,6 +20,7 @@
   "license": "",
   "dependencies": {
     "@create-figma-plugin/ui": "^4.0.3",
+    "@preact/signals": "^2.7.1",
     "@simplestack/store": "^0.7.5",
     "figwire": "^0.0.3",
     "preact": "^10.28.3"
