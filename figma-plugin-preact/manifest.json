@@ -1,8 +1,8 @@
 {
-	"name": "new react plugin",
+	"name": "new preact plugin",
 	"api": "1.0.0",
 	"editorType": ["figma"],
-    "id": "react-plugin-id",
+    "id": "preact-plugin-id",
 	"main": "dist/main.js",
 	"ui": "dist/index.html",
     "documentAccess": "dynamic-page",
