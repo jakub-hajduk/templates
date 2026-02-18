@@ -2,6 +2,7 @@
   "name": "Name",
   "version": "0.0.0",
   "description": "Description",
+  "type": "module",
   "scripts": {
     "dev": "pkgroll --watch",
     "build": "pkgroll",
@@ -11,7 +12,14 @@
     "!!release": "pnpm run fix && pnpm run build && changelogen --release --push --publish"
   },
   "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jakub-hajduk"
+  },
+  "author": {
+    "name": "Jakub Hajduk",
+    "email": "devhajduk@gmail.com"
+  },
   "license": "ISC",
   "devDependencies": {
     "@biomejs/biome": "1.9.4",

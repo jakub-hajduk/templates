@@ -1,0 +1,39 @@
+{
+  "name": "preact-plugin",
+  "version": "0.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "build": "tsx scripts/build.ts",
+    "dev": "tsx scripts/build.ts watch",
+    "check": "biome check",
+    "fix": "biome check --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jakub-hajduk"
+  },
+  "author": {
+    "name": "Jakub Hajduk",
+    "email": "devhajduk@gmail.com"
+  },
+  "license": "",
+  "dependencies": {
+    "@create-figma-plugin/ui": "^4.0.3",
+    "@preact/signals": "^2.7.1",
+    "@simplestack/store": "^0.7.5",
+    "figwire": "^0.0.3",
+    "preact": "^10.28.3"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "@figma/plugin-typings": "^1.113.0",
+    "@preact/preset-vite": "^2.10.3",
+    "@types/node": "^22.13.4",
+    "rimraf": "^6.1.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.3.2",
+    "vite": "^7.3.1",
+    "vite-plugin-singlefile": "^2.3.0"
+  }
+}
