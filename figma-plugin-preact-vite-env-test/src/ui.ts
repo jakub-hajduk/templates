@@ -1,3 +1,1 @@
-import { dupa } from './dupa.plugin';
-
-dupa()
+console.log('UI')

@@ -11,11 +11,6 @@
 		"verbatimModuleSyntax": true,
 		"noEmit": true,
 		"skipLibCheck": true,
-		"paths": {
-			"@shared/*": ["./src/shared/*"],
-			"@ui/*": ["./src/ui/*"],
-			"@main/*": ["./src/main/*"]
-		}
 	},
-	"include": ["./src/**/*", "src/module.d.ts", "./tsdown.config.ts", "./scripts/*"]
+	"include": ["./src/**/*", "./module.d.ts", "./figstack.config.ts"]
 }

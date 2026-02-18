@@ -1,9 +1,9 @@
 {
-	"name": "new preact plugin",
+	"name": "new env plugin",
 	"api": "1.0.0",
 	"editorType": ["figma"],
-    "id": "preact-plugin-id",
-	"main": "dist/main.js",
+    "id": "preact-plugin-id-env-test",
+	"main": "dist/code.js",
 	"ui": "dist/index.html",
     "documentAccess": "dynamic-page",
     "networkAccess": { "allowedDomains": ["none"] }
